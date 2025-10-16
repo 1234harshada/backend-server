@@ -2,5 +2,24 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
-  }
+  },
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "A simple Express.js server that prints my name.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1234harshada/backend-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1234harshada/backend-server/issues"
+  },
+  "homepage": "https://github.com/1234harshada/backend-server#readme"
 }
