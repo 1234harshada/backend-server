@@ -8,9 +8,10 @@
   "description": "A simple Express.js server that prints my name.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
+  "type" : "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1234harshada/backend-server.git"
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/1234harshada/backend-server/issues"
   },
-  "homepage": "https://github.com/1234harshada/backend-server#readme"
+  "homepage": "https://github.com/1234harshada/backend-server#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
