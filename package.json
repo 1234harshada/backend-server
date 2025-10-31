@@ -1,17 +1,17 @@
 {
   "dependencies": {
     "dotenv": "^17.2.3",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
   },
-  "name": "backend-server",
+  "name": "backend-connect-task",
   "version": "1.0.0",
-  "description": "A simple Express.js server that prints my name.",
-  "main": "server.js",
+  "description": "My backend connection test project",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "nodemon app.js"
+
   },
-  "type" : "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1234harshada/backend-server.git"
